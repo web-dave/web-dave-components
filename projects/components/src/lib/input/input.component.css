@@ -1,4 +1,6 @@
-:host ::ng-deep input {
+:host ::ng-deep input,
+:host ::ng-deep select,
+:host ::ng-deep textarea {
   padding: 8px;
   display: block;
   border: none;
