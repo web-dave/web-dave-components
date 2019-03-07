@@ -1,0 +1,31 @@
+<wd-page-header [title]="'Moin Page!!'"></wd-page-header>
+<wd-pannel-list>
+  <wd-pannel *ngFor="let itm of (paneldata$ | async)" [data]="itm"></wd-pannel>
+</wd-pannel-list>
+<wd-table [size]="3" [data]="tabledata$"></wd-table>
+<wd-container [title]="'Recent Comments'">
+  <wd-comments [data]="comments$"></wd-comments>
+</wd-container>
+<wd-container [title]="'General Stats'">
+  <wd-progress-bar
+    *ngFor="let data of (stats$ | async)"
+    [data]="data"
+  ></wd-progress-bar>
+</wd-container>
+
+<wd-container [title]="'Users'">
+  <wd-list>
+    <wd-user-list-item
+      *ngFor="let user of (users$ | async)"
+      [user]="user"
+    ></wd-user-list-item>
+  </wd-list>
+</wd-container>
+
+<br />
+<wd-page-footer>
+  <wd-content-table
+    *ngFor="let content of (content$ | async)"
+    [content]="content"
+  ></wd-content-table>
+</wd-page-footer>

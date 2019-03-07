@@ -1,0 +1,12 @@
+<wd-top-nav (toggleSideBar)="buzz = $event"></wd-top-nav>
+<wd-side-nav [toggleSideBar]="buzz">
+  <wd-side-nav-item
+    *ngFor="let itm of items"
+    [icon]="itm.icon"
+    [link]="itm.link"
+    [label]="itm.label"
+  ></wd-side-nav-item>
+</wd-side-nav>
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+  <router-outlet></router-outlet>
+</div>

@@ -1,0 +1,33 @@
+<wd-page-header [title]="'Views!!'"></wd-page-header>
+<wd-container [title]="'A Form'">
+  <form #form="ngForm">
+    <h2 class="w3-center">Contact Us</h2>
+    <wd-input icon="fa-user">
+      <input ngModel name="first" type="text" placeholder="First Name"
+    /></wd-input>
+
+    <wd-input icon="fa-user">
+      <input ngModel name="last" type="text" placeholder="Last Name"
+    /></wd-input>
+
+    <wd-input icon="fa-envelope-o">
+      <input ngModel name="email" type="email" placeholder="Email"
+    /></wd-input>
+
+    <wd-input icon="fa-phone">
+      <input ngModel name="phone" type="tel" placeholder="Phone"
+    /></wd-input>
+
+    <wd-input icon="fa-pencil">
+      <input ngModel name="message" type="text" placeholder="Message"
+    /></wd-input>
+
+    <button
+      type="submit"
+      class="w3-button w3-block w3-section w3-blue w3-ripple w3-padding"
+    >
+      Send
+    </button>
+    <pre>{{ form.value | json }}</pre>
+  </form>
+</wd-container>

@@ -1,0 +1,11 @@
+.w3-quarter {
+  padding: 8px;
+  float: left;
+  width: 100%;
+}
+
+@media (min-width: 601px) {
+  .w3-quarter {
+    width: 24.99999%;
+  }
+}

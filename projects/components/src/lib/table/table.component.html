@@ -1,0 +1,21 @@
+<div class="w3-panel">
+  <div class="w3-row-padding" style="margin:0 -16px">
+    <div [class]="width" *ngIf="(data | async) as tblDada">
+      <h5>{{ tblDada.settings.title }}</h5>
+
+      <table class="w3-table w3-striped w3-white">
+        <tr *ngFor="let row of tblDada.data; let r = index">
+          <td *ngFor="let col of tblDada.settings.order; let c = index">
+            <i
+              *ngIf="col.type === 'icon'"
+              [ngClass]="row[col.column]"
+              class="fa w3-text-blue w3-large"
+            ></i>
+            <span *ngIf="col.type === 'text'">{{ row[col.column] }}</span>
+            <i *ngIf="col.type === 'italic'">{{ row[col.column] }}</i>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

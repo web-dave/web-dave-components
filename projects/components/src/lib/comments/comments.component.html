@@ -1,0 +1,19 @@
+<div class="w3-row" *ngFor="let comment of (data | async)">
+  <div class="w3-col m2 text-center">
+    <img
+      class="w3-circle"
+      [src]="comment.user.img"
+      style="width:96px;height:96px"
+    />
+  </div>
+  <div class="w3-col m10 w3-container">
+    <h4>
+      {{ comment.user.name }}
+      <span class="w3-opacity w3-medium">{{ comment.timestamp }}</span>
+    </h4>
+    <p>
+      {{ comment.comment }}
+    </p>
+    <br />
+  </div>
+</div>

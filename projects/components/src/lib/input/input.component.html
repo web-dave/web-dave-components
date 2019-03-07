@@ -1,0 +1,8 @@
+<div class="w3-row w3-section">
+  <div *ngIf="icon" class="w3-col" style="width:50px">
+    <i class="w3-xxlarge fa" [ngClass]="icon"></i>
+  </div>
+  <div class="w3-rest">
+    <ng-content></ng-content>
+  </div>
+</div>

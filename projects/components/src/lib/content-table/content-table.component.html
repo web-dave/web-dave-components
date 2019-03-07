@@ -1,0 +1,6 @@
+<div class="w3-container w3-third">
+  <h5 class="w3-bottombar " [ngClass]="'w3-border-' + content.color">
+    {{ content.title }}
+  </h5>
+  <p *ngFor="let itm of content.list">{{ itm.label }}</p>
+</div>

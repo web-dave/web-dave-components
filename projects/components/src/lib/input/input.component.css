@@ -1,0 +1,7 @@
+:host ::ng-deep input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border: 1px solid #ccc !important;
+  width: 100%;
+}
