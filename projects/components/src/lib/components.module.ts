@@ -17,6 +17,7 @@ import { InputComponent } from './input/input.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { SideNavItemComponent } from './side-nav-item/side-nav-item.component';
+import { ProgressCircleComponent } from './progress-circle/progress-circle.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { SideNavItemComponent } from './side-nav-item/side-nav-item.component';
     PageFooterComponent,
     ContentTableComponent,
     InputComponent,
-    SideNavItemComponent
+    SideNavItemComponent,
+    ProgressCircleComponent
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -54,7 +56,8 @@ import { SideNavItemComponent } from './side-nav-item/side-nav-item.component';
     PageFooterComponent,
     ContentTableComponent,
     InputComponent,
-    SideNavItemComponent
+    SideNavItemComponent,
+    ProgressCircleComponent
   ]
 })
 export class ComponentsModule {}

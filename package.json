@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "rest": "json-server --watch ./server/db.json"
+    "rest": "json-server --watch ./server/db.json",
+    "bc": "ng build --project components",
+    "postbc": "node-sass projects/components/styles/styles.scss -o dist/components/lib/styles"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +25,7 @@
     "core-js": "^2.5.4",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
+    "web-dave-components": "0.0.11",
     "zone.js": "~0.8.26"
   },
   "devDependencies": {

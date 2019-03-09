@@ -1,24 +1,22 @@
-# Components
+# Admin
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+This is a Admin template build with Angular and CSS
 
-## Code scaffolding
+It's based on https://www.w3schools.com/w3css/tryw3css_templates_analytics.htm
 
-Run `ng generate component component-name --project components` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project components`.
-> Note: Don't forget to add `--project components` or else it will be added to the default project in your `angular.json` file. 
+I will use this for talks and demoing the Angular CLI
 
-## Build
+### Play with it
 
-Run `ng build components` to build the project. The build artifacts will be stored in the `dist/` directory.
+- clone it: `git clone https://github.com/web-dave/admin-template.git`
+- install it: `npm i`
+- start the backend: `npm run rest`
+- kick of the dev Server: `ng s -o`
 
-## Publishing
+<img src="https://github.com/web-dave/admin-template/blob/master/admin-template.png" />
 
-After building your library with `ng build components`, go to the dist folder `cd dist/components` and run `npm publish`.
+### ToDo:
 
-## Running unit tests
-
-Run `ng test components` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- Tests (If this bekomes productive)
+- Datepicker
+- Alerts

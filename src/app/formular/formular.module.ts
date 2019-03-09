@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { FormularComponent } from './formular.component';
-import { ComponentsModule } from 'projects/components/src/public_api';
+import { ComponentsModule } from 'web-dave-components';
 
 @NgModule({
   declarations: [FormularComponent],

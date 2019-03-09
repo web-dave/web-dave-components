@@ -17,8 +17,13 @@ export class AppComponent {
     },
     {
       link: ['/', 'formular'],
-      label: 'formular',
+      label: 'Formular',
       icon: 'fa-edit'
+    },
+    {
+      link: ['/', 'progress'],
+      label: 'Progress',
+      icon: 'fa-eye'
     }
   ];
 }

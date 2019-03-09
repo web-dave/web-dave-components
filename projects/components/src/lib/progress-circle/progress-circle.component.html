@@ -1,0 +1,44 @@
+<div class="w3-quarter">
+  <div [ngStyle]="style" class="w3-container w3-padding-16">
+    <div class="w3-left">
+      <svg class="progress-ring" width="140" height="140">
+        <circle
+          #circlebg
+          class="progress-ring__circle"
+          stroke="#000"
+          stroke-width="18"
+          fill="transparent"
+          r="50"
+          cx="60"
+          cy="60"
+        />
+        <circle
+          #circleprogress
+          class="progress-ring__circle"
+          stroke="#000"
+          stroke-width="18"
+          fill="transparent"
+          r="50"
+          cx="60"
+          cy="60"
+        />
+        <text
+          #text
+          x="45%"
+          y="56%"
+          text-anchor="middle"
+          stroke="#000"
+          stroke-width="1px"
+          dy=".2em"
+        >
+          70 %
+        </text>
+      </svg>
+    </div>
+    <!-- <div class="w3-right">
+      <h3>{{ progress }}</h3>
+    </div> -->
+    <div class="w3-clear"></div>
+    <h3>{{ name }}</h3>
+  </div>
+</div>

@@ -4,12 +4,13 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ComponentsModule } from 'projects/components/src/public_api';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { FormularModule } from './formular/formular.module';
+import { ProgressComponent } from './progress/progress.component';
+import { ComponentsModule } from 'projects/components/src/public_api';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, ProgressComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
