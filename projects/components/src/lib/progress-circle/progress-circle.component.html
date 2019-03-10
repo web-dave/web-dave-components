@@ -1,16 +1,16 @@
 <div class="w3-quarter">
   <div [ngStyle]="style" class="w3-container w3-padding-16">
     <div class="w3-left">
-      <svg class="progress-ring" width="140" height="140">
+      <svg class="progress-ring" width="100" height="100">
         <circle
           #circlebg
           class="progress-ring__circle"
           stroke="#000"
           stroke-width="18"
           fill="transparent"
-          r="50"
-          cx="60"
-          cy="60"
+          r="40"
+          cx="50"
+          cy="50"
         />
         <circle
           #circleprogress
@@ -18,14 +18,14 @@
           stroke="#000"
           stroke-width="18"
           fill="transparent"
-          r="50"
-          cx="60"
-          cy="60"
+          r="40"
+          cx="50"
+          cy="50"
         />
         <text
           #text
-          x="45%"
-          y="56%"
+          x="50%"
+          y="50%"
           text-anchor="middle"
           stroke="#000"
           stroke-width="1px"
@@ -39,6 +39,6 @@
       <h3>{{ progress }}</h3>
     </div> -->
     <div class="w3-clear"></div>
-    <h3>{{ name }}</h3>
+    <h3>{{ label }}</h3>
   </div>
 </div>

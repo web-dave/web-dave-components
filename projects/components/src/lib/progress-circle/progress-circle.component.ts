@@ -21,7 +21,8 @@ export class ProgressCircleComponent implements OnInit, OnChanges {
   @ViewChild('text') text;
   @Input() color: string;
   @Input() progress: number;
-  @Input() name: string;
+  @Input() label: string;
+
   style;
 
   constructor(private colors: ColorsService) {}
