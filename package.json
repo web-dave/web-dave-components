@@ -1,5 +1,5 @@
 {
-  "name": "my-components",
+  "name": "web-dave-components",
   "version": "0.0.13",
   "scripts": {
     "ng": "ng",
@@ -13,6 +13,15 @@
     "bc": "ng build --project components",
     "postbc": "node-sass projects/components/styles/styles.scss -o dist/components/lib/styles"
   },
+  "keywords": [
+    "Angular",
+    "Component",
+    "Library",
+    "No Bootstrap",
+    "No jQuery",
+    "W3C"
+  ],
+  "description": "Angular Component Library without any further dependencies",
   "private": true,
   "dependencies": {
     "@angular/animations": "~7.2.0",
