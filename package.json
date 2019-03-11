@@ -1,6 +1,6 @@
 {
   "name": "my-components",
-  "version": "0.0.0",
+  "version": "0.0.12",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,6 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "rest": "json-server --watch ./server/db.json",
+    "postversion": "npm run bc",
     "bc": "ng build --project components",
     "postbc": "node-sass projects/components/styles/styles.scss -o dist/components/lib/styles"
   },
