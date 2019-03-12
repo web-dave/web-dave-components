@@ -5,7 +5,7 @@ This is a Component library build with Angular and CSS
 It's based on https://www.w3schools.com/w3css/tryw3css_templates_analytics.htm
 
 I will use this for talks and demoing the Angular CLI
-You are welcome to contribute. [Here](https://github.com/web-dave/web-dave-components/CONTRIBUTE.md) you can find a short guide.
+You are welcome to contribute. [Here](https://github.com/web-dave/web-dave-components/blob/master/CONTRIBUTE.md) you can find a short guide.
 
 ### Play with it
 
