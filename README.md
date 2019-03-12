@@ -21,3 +21,5 @@ You are welcome to contribute. [Here](https://github.com/web-dave/web-dave-compo
 - Tests (If this bekomes productive)
 - Datepicker
 - Alerts
+- Showcase
+- Docs
