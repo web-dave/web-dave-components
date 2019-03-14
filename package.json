@@ -1,6 +1,6 @@
 {
   "name": "web-dave-components",
-  "version": "0.0.13",
+  "version": "0.0.14",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,8 +9,9 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "rest": "json-server --watch ./server/db.json",
-    "postversion": "npm run bc",
+    "postversion": "npm run bc && npm run pub",
     "bc": "ng build --project components",
+    "pub": "cd dist/components && npm publish",
     "postbc": "node-sass projects/components/styles/styles.scss -o dist/components/lib/styles"
   },
   "keywords": [
