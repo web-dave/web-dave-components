@@ -9,3 +9,25 @@ h4,
 h5 {
   font-family: 'Raleway', sans-serif;
 }
+
+body {
+  background-color: #fff;
+  color: #000;
+  nav,
+  ul,
+  table {
+    background-color: #fff;
+    color: #000;
+  }
+  &.dark-mode {
+    background-color: #232323;
+    color: #b9b9b9;
+    nav,
+    ul,
+    table {
+      background-color: #232323;
+      color: #b9b9b9;
+    }
+  }
+}
+// w3-hover-none w3-hover-text-light-grey

@@ -3,7 +3,7 @@
     <div [class]="width" *ngIf="(data | async) as tblDada">
       <h5>{{ tblDada.settings.title }}</h5>
 
-      <table class="w3-table w3-striped w3-white">
+      <table class="w3-table w3-striped">
         <tr *ngFor="let row of tblDada.data; let r = index">
           <td *ngFor="let col of tblDada.settings.order; let c = index">
             <i

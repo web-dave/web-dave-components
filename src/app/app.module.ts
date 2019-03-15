@@ -7,9 +7,9 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { FormularModule } from './formular/formular.module';
 import { ProgressComponent } from './progress/progress.component';
-import { ComponentsModule } from 'web-dave-components';
+// import { ComponentsModule } from 'web-dave-components';
 
-// import { ComponentsModule } from 'projects/components/src/public_api';
+import { ComponentsModule } from 'projects/components/src/public_api';
 
 @NgModule({
   declarations: [AppComponent, ProgressComponent],

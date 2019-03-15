@@ -176,9 +176,9 @@ export class ColorsService {
 
     // Using the HSP value, determine whether the color is light or dark
     if (hsp > 127.5) {
-      return '#eeeeee';
+      return '#b9b9b9';
     } else {
-      return '#333333';
+      return '#232323';
     }
   }
 

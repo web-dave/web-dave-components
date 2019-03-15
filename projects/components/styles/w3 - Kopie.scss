@@ -249,13 +249,17 @@ img {
   border-bottom: 1px solid #ddd;
 }
 .w3-striped tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
 }
 .w3-table-all tr:nth-child(odd) {
+  background-color: #fff;
 }
 .w3-table-all tr:nth-child(even) {
+  background-color: #f1f1f1;
 }
 .w3-hoverable tbody tr:hover,
 .w3-ul.w3-hoverable li:hover {
+  background-color: #ccc;
 }
 .w3-centered tr th,
 .w3-centered tr td {
@@ -380,16 +384,18 @@ img {
 }
 .w3-dropdown-hover:first-child,
 .w3-dropdown-click:hover {
+  background-color: #ccc;
   color: #000;
 }
 .w3-dropdown-hover:hover > .w3-button:first-child,
 .w3-dropdown-click:hover > .w3-button:first-child {
+  background-color: #ccc;
   color: #000;
 }
 .w3-dropdown-content {
   cursor: auto;
   color: #000;
-
+  background-color: #fff;
   display: none;
   position: absolute;
   min-width: 160px;
@@ -407,7 +413,7 @@ img {
 .w3-sidebar {
   height: 100%;
   width: 200px;
-
+  background-color: #fff;
   position: fixed !important;
   z-index: 1;
   overflow: auto;
@@ -445,7 +451,7 @@ img {
 }
 .w3-modal-content {
   margin: auto;
-
+  background-color: #fff;
   position: relative;
   padding: 0;
   outline: 0;
@@ -886,14 +892,14 @@ img {
 }
 .w3-code {
   width: auto;
-
+  background-color: #fff;
   padding: 8px 12px;
   border-left: 4px solid #4caf50;
   word-wrap: break-word;
 }
 .w3-codespan {
   color: crimson;
-
+  background-color: #f1f1f1;
   padding-left: 4px;
   padding-right: 4px;
   font-size: 110%;
@@ -1173,6 +1179,7 @@ img {
 }
 .w3-button:hover {
   color: #000 !important;
+  background-color: #ccc !important;
 }
 .w3-transparent,
 .w3-hover-none:hover {

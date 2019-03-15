@@ -26,4 +26,7 @@ export class AppComponent {
       icon: 'fa-eye'
     }
   ];
+  setTheme() {
+    document.querySelector('body').classList.toggle('dark-mode');
+  }
 }
