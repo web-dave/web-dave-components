@@ -6,11 +6,11 @@ import { Injectable } from '@angular/core';
 export class ColorsService {
   colors = {
     'w3-amber': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ffc107'
     },
     'w3-aqua': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#00ffff'
     },
     'w3-blue': {
@@ -18,7 +18,7 @@ export class ColorsService {
       'background-color': '#2196f3'
     },
     'w3-light-blue': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#87ceeb'
     },
     'w3-brown': {
@@ -26,7 +26,7 @@ export class ColorsService {
       'background-color': '#795548'
     },
     'w3-cyan': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#00bcd4'
     },
     'w3-blue-grey': {
@@ -42,7 +42,7 @@ export class ColorsService {
       'background-color': '#4caf50'
     },
     'w3-light-green': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#8bc34a'
     },
     'w3-indigo': {
@@ -50,15 +50,15 @@ export class ColorsService {
       'background-color': '#3f51b5'
     },
     'w3-khaki': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#f0e68c'
     },
     'w3-lime': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#cddc39'
     },
     'w3-orange': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ff9800'
     },
     'w3-deep-orange': {
@@ -82,7 +82,7 @@ export class ColorsService {
       'background-color': '#f44336'
     },
     'w3-sand': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#fdf5e6'
     },
     'w3-teal': {
@@ -90,11 +90,11 @@ export class ColorsService {
       'background-color': '#009688'
     },
     'w3-yellow': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ffeb3b'
     },
     'w3-white': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#fff'
     },
     'w3-black': {
@@ -102,19 +102,19 @@ export class ColorsService {
       'background-color': '#000'
     },
     'w3-grey': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#9e9e9e'
     },
     'w3-gray': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#9e9e9e'
     },
     'w3-light-grey': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#f1f1f1'
     },
     'w3-light-gray': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#f1f1f1'
     },
     'w3-dark-grey': {
@@ -126,19 +126,19 @@ export class ColorsService {
       'background-color': '#616161'
     },
     'w3-pale-red': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ffdddd'
     },
     'w3-pale-green': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ddffdd'
     },
     'w3-pale-yellow': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ffffcc'
     },
     'w3-pale-blue': {
-      color: '#000',
+      color: '#232323',
       'background-color': '#ddffff'
     }
   };

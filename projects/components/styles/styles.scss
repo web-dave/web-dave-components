@@ -15,19 +15,43 @@ body {
   color: #000;
   nav,
   ul,
-  table {
+  table,
+  input,
+  select,
+  textarea {
     background-color: #fff;
     color: #000;
+  }
+  .w3-striped tbody tr:nth-child(even),
+  .w3-table-all tr:nth-child(odd),
+  .w3-table-all tr:nth-child(even),
+  .w3-hoverable tbody tr:hover,
+  .w3-ul.w3-hoverable li:hover {
+    background-color: #f1f1f1;
   }
   &.dark-mode {
     background-color: #232323;
     color: #b9b9b9;
     nav,
     ul,
-    table {
+    table,
+    input,
+    select,
+    textarea {
       background-color: #232323;
       color: #b9b9b9;
     }
+    .w3-striped tbody tr:nth-child(even),
+    .w3-table-all tr:nth-child(odd),
+    .w3-table-all tr:nth-child(even),
+    .w3-hoverable tbody tr:hover,
+    .w3-ul.w3-hoverable li:hover {
+      background-color: #3c3c3c;
+    }
   }
+}
+
+.w3-hoverable tbody tr:hover,
+.w3-ul.w3-hoverable li:hover {
 }
 // w3-hover-none w3-hover-text-light-grey
