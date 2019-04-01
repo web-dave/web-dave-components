@@ -3,7 +3,9 @@
   "version": "0.0.17",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
-    "@angular/core": "^7.2.0"
+    "@angular/core": "^7.2.0",
+    "raleway-webfont": "^3.0.1",
+    "font-awesome": "^4.7.0"
   },
   "keywords": [
     "Angular",

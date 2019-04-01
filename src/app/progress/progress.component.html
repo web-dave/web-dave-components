@@ -51,3 +51,21 @@
     [progress]="100"
   ></wd-progress-circle>
 </wd-pannel-list>
+<!-- Trigger/Open the Modal -->
+<button
+  (click)="display = display === 'none' ? 'block' : 'none'"
+  class="w3-button"
+>
+  Open Modal
+</button>
+<wd-modal
+  class="w3-aqua"
+  [display]="display"
+  (displayChanged)="display = $event"
+>
+  <wd-alert>
+    <h2>Modal Header</h2>
+    <p>Some text..</p>
+    <p>Some text..</p>
+  </wd-alert>
+</wd-modal>

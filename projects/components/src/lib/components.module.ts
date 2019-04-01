@@ -19,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { SideNavItemComponent } from './side-nav-item/side-nav-item.component';
 import { ProgressCircleComponent } from './progress-circle/progress-circle.component';
 import { AlertComponent } from './alert/alert.component';
+import { ModalComponent } from './modal/modal.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { AlertComponent } from './alert/alert.component';
     InputComponent,
     SideNavItemComponent,
     ProgressCircleComponent,
-    AlertComponent
+    AlertComponent,
+    ModalComponent
   ],
   imports: [CommonModule, RouterModule],
   exports: [
@@ -60,7 +62,8 @@ import { AlertComponent } from './alert/alert.component';
     InputComponent,
     SideNavItemComponent,
     ProgressCircleComponent,
-    AlertComponent
+    AlertComponent,
+    ModalComponent
   ]
 })
 export class ComponentsModule {}
